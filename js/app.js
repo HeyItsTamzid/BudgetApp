@@ -29,6 +29,7 @@ class UI {
         this.populateListFromLS(element);
       });
 
+      this.itemList = itemListInLS;
       this.expenseAmount.textContent = totalExpense;
       this.budgetAmount.textContent = budgetInLS;
       this.balance.textContent = budgetInLS - totalExpense;
